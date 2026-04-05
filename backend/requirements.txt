@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+pydantic
+fastapi-cors
+python-multipart
+PyPDF2
