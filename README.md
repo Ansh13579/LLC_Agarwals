@@ -65,26 +65,6 @@ The interface will be available typically on `http://localhost:5173`. Open it in
 - Multiple properties under standard headings (e.g. multiple payoff values under 'Payoffs and Payments' page) are recursively found and summed automatically.
 - Assumptions: PyPDF2 correctly captures the sequential text and amounts for target section headers without excessive artifacts breaking the regex boundaries. Where Quotes wrap numbers differently (like "Loan Amount"), fallback rules try standard matching.
 
-## Deployment to Vercel
-
-### Deploying the Frontend
-The easiest way to deploy your React (Vite) frontend is using Vercel.
-
-1. **Using Vercel CLI:**
-   - Install the Vercel CLI globally: `npm i -g vercel`
-   - Run `vercel` in your `frontend` directory.
-   - Follow the prompts to link your project and deploy.
-   - Run `vercel --prod` to deploy to production.
-
-2. **Using GitHub (Recommended):**
-   - Push this entire repository to GitHub.
-   - Go to [Vercel](https://vercel.com) and click **Add New Project**.
-   - Import your GitHub repository.
-   - Set the **Framework Preset** to `Vite`.
-   - Set the **Root Directory** to `frontend`.
-   - Click **Deploy**.
-
-### Deploying the Backend (FastAPI)
-While Vercel supports Serverless Python functions, a long-running FastAPI backend is often better suited for platforms like **Render**, **Railway**, or **Fly.io**. 
-
-If you deploy your backend to a cloud service (e.g., Render), make sure you update the API URL in your frontend code (likely inside `src/App.jsx`) from `http://localhost:8000` to your new production backend URL before deploying the frontend to Vercel!
+## Live Deployment
+- **Frontend (Live Demo):** [https://llc-agarwals.vercel.app](https://llc-agarwals.vercel.app) *(Replace this if your Vercel URL is slightly different)*
+- **Backend (FastAPI):** [https://abd420-llc-backend.hf.space](https://abd420-llc-backend.hf.space)
