@@ -66,5 +66,5 @@ The interface will be available typically on `http://localhost:5173`. Open it in
 - Assumptions: PyPDF2 correctly captures the sequential text and amounts for target section headers without excessive artifacts breaking the regex boundaries. Where Quotes wrap numbers differently (like "Loan Amount"), fallback rules try standard matching.
 
 ## Live Deployment
-- **Frontend (Live Demo):** [https://llc-agarwals.vercel.app](https://llc-agarwals.vercel.app) *(Replace this if your Vercel URL is slightly different)*
+- **Frontend (Live Demo):** [https://llc-garwals.vercel.app/](https://llc-garwals.vercel.app/)
 - **Backend (FastAPI):** [https://abd420-llc-backend.hf.space](https://abd420-llc-backend.hf.space)
