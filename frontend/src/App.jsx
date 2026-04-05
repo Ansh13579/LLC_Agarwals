@@ -43,7 +43,7 @@ export default function App() {
 
     try {
       // Send to the new PDF endpoint
-      const res = await fetch('http://localhost:8000/api/extract-pdf', {
+      const res = await fetch('https://abd420-llc-backend.hf.space/api/extract-pdf', {
         method: 'POST',
         body: formData, // Browser automatically sets the correct Content-Type for FormData
       });
