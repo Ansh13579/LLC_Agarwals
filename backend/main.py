@@ -14,6 +14,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.get("/")
+def read_root():
+    return {"message": "Closing Disclosure API is running successfully!"}
+
 def get_amount(line, next_line=""):
     amounts = re.findall(r'(-?\s*\$\s*[\d,]+\.\d{2})', line)
     if amounts: return float(amounts[-1].replace('$', '').replace(',', '').replace(' ', ''))
