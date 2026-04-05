@@ -67,4 +67,4 @@ The interface will be available typically on `http://localhost:5173`. Open it in
 
 ## Live Deployment
 - **Frontend (Live Demo):** [https://llc-agarwals.vercel.app](https://llc-agarwals.vercel.app) *(Replace this if your Vercel URL is slightly different)*
-- **Backend (FastAPI):** [https://abd420-llc-backend.hf.space](https://abd420-llc-backend.hf.space)
+- **Backend (FastAPI):** [https://abd420-llc-backend.hf.space](https://llc-garwals.vercel.app/)
